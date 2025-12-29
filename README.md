@@ -5,14 +5,7 @@ Ejemplos de cliente para hacer llamadas a una API compatible con OpenAI Chat Com
 ## Instalación
 
 ```bash
-# Crear entorno virtual
-python3 -m venv venv
-
-# Activar entorno virtual
-source venv/bin/activate  # Linux/Mac
-
-# Instalar dependencias
-pip install -r requirements.txt
+python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt
 ```
 
 ## Configuración
@@ -24,7 +17,6 @@ Variables de entorno:
 Crea el archivo `.env` con tus variables:
 
 ```bash
-# Si existe .env.example, cópialo
 cp .env.example .env
 ```
 
